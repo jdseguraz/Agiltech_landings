@@ -1,11 +1,70 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, MagnifyingGlass } from '@phosphor-icons/react';
+import { useEffect, useRef } from 'react';
 
 export default function HeroSection() {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const chars = '01アイギルテック';
+    const fontSize = 14;
+    const columns = canvas.width / fontSize;
+    const drops = Array(Math.floor(columns)).fill(1);
+
+    const draw = () => {
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = '#00c289';
+      ctx.font = fontSize + 'px monospace';
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    };
+
+    const interval = setInterval(draw, 50);
+
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section id="hero" className="relative min-h-screen bg-black flex items-center justify-center overflow-hidden pt-32 md:pt-40">
+      {/* Canvas Matrix Effect */}
+      <canvas
+        ref={canvasRef}
+        className="absolute inset-0 opacity-[0.35]"
+        style={{ pointerEvents: 'none' }}
+      />
+
+      {/* Gradient fade at bottom */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none"></div>
+
       {/* Grid pattern sutil */}
-      <div className="absolute inset-0 opacity-[0.03]">
+      <div className="absolute inset-0 opacity-[0.02]">
         <div className="absolute inset-0" style={{
           backgroundImage: `linear-gradient(rgba(0,194,137,.3) 1px, transparent 1px),
                            linear-gradient(90deg, rgba(0,194,137,.3) 1px, transparent 1px)`,
