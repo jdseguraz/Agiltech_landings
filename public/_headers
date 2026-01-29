@@ -1,0 +1,35 @@
+# Agiltech - Headers Configuration for Netlify/Vercel
+
+/*
+  # Security Headers
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  
+  # Cache Control
+  Cache-Control: public, max-age=0, must-revalidate
+  
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: application/javascript; charset=utf-8
+  
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: text/css; charset=utf-8
+  
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+  
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+  
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,16 @@
+# robots.txt for Agiltech
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://agiltech.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Block specific bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

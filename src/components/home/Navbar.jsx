@@ -35,14 +35,14 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Inicio', href: '#hero' },
     { name: 'Soluciones', href: '#solutions' },
-    { name: 'Cómo Trabajamos', href: '#process' },
-    { name: 'Por Qué Agiltech', href: '#why' },
+    { name: 'Proceso', href: '#process' },
+    { name: 'Por Qué Nosotros', href: '#why' },
     { name: 'Contacto', href: '#contact' },
   ];
 
   // Dividir los links en dos grupos
   const leftLinks = navLinks.slice(0, 2); // Inicio, Soluciones
-  const rightLinks = navLinks.slice(2); // Cómo Trabajamos, Por Qué Agiltech, Contacto
+  const rightLinks = navLinks.slice(2); // Proceso, Por Qué Nosotros, Contacto
 
   const handleLinkClick = (e, href) => {
     e.preventDefault();
