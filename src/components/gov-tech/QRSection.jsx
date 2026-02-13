@@ -23,8 +23,8 @@ export default function QRSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left Column - Text */}
-          <div className="flex items-center justify-center">
-            <p className="text-xl md:text-2xl text-[#1a5f4a] font-semibold leading-relaxed max-w-xl text-center">
+          <div className="flex items-center justify-center px-4">
+            <p className="text-base md:text-xl lg:text-2xl text-[#1a5f4a] font-semibold leading-relaxed max-w-md lg:max-w-xl text-center">
               Utilice sus redes para promocionarse y redirigir a sus seguidores a su red, 
               tan solo habilitando el botón de WhatsApp en sus redes, compartiendo un link 
               o a través de su propio código QR.
@@ -44,7 +44,7 @@ export default function QRSection() {
                   {/* Logo */}
                   <div className="mb-6 text-center">
                     <div className="text-2xl font-bold bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent mb-2">
-                      GovWapp
+                      WhatIA
                     </div>
                     <p className="text-xs text-gray-600">Escanea para conectar</p>
                   </div>
@@ -52,8 +52,8 @@ export default function QRSection() {
                   {/* QR Code Image */}
                   <div className="relative w-40 h-40 bg-white p-3 rounded-xl shadow-lg border-2 border-gray-100 flex items-center justify-center">
                     <img 
-                      src="/src/assets/gov-tech/images/qr_code.png" 
-                      alt="QR Code" 
+                      src="/images/qr_code.png" 
+                      alt="Código QR WhatIA" 
                       className="w-full h-full object-contain"
                     />
                   </div>

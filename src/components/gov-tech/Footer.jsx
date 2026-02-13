@@ -17,7 +17,7 @@ export default function Footer() {
           
           {/* Copyright */}
           <p className="text-gray-400 text-sm">
-            © {currentYear} GovWapp. Todos los derechos reservados.
+            © {currentYear} WhatIA. Todos los derechos reservados.
           </p>
 
           {/* Social Media */}

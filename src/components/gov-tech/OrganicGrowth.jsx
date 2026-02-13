@@ -5,8 +5,8 @@ export default function OrganicGrowth() {
   return (
     <section className="relative bg-white min-h-screen flex items-center overflow-hidden">
       {/* Animated circles decoration */}
-      <div className="absolute top-32 left-1/4 w-28 h-28 border-4 border-[#30f2ab] rounded-full animate-float"></div>
-      <div className="absolute bottom-20 right-1/4 w-36 h-36 border-[5px] border-[#25c5ad] rounded-full animate-float-slow"></div>
+      <div className="absolute top-32 left-1/4 w-28 h-28 border-4 border-[#30f2ab] rounded-full animate-float opacity-20 md:opacity-100"></div>
+      <div className="absolute bottom-20 right-1/4 w-36 h-36 border-[5px] border-[#25c5ad] rounded-full animate-float-slow opacity-20 md:opacity-100"></div>
       
       <div className="max-w-6xl mx-auto px-8 sm:px-12 lg:px-16 py-12 relative z-10">
         <div className="grid lg:grid-cols-12 gap-8 items-center">
@@ -35,7 +35,7 @@ export default function OrganicGrowth() {
             </h2>
             
             <p className="text-lg text-gray-600 leading-relaxed animate-fade-in animation-delay-800">
-              GovWapp te garantiza hacer crecer tu red de forma orgánica y organizada a través de datos reales y sin margen de error. 
+              WhatIA te garantiza hacer crecer tu red de forma orgánica y organizada a través de datos reales y sin margen de error. 
               Las personas se unen a la red por voluntad propia a través de una invitación de WhatsApp, el software utiliza además 
               la inteligencia artificial para la predictibilidad de datos, datos de los que creemos no disponemos, pero que en realidad sí lo hacemos.
             </p>

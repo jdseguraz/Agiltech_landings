@@ -53,7 +53,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20GovWapp"
+              href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20WhatIA"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white font-semibold rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200"
@@ -86,7 +86,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20GovWapp"
+                href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20WhatIA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 px-6 py-3 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white font-semibold rounded-full text-center hover:shadow-lg transition-all duration-200"

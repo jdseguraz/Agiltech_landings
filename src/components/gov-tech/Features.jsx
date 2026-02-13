@@ -49,51 +49,51 @@ export default function Features() {
   return (
     <section id="features" className="relative bg-gradient-to-b from-white to-gray-50 py-20 overflow-hidden">
       {/* Animated circles decoration */}
-      <div className="absolute top-20 right-10 w-32 h-32 border-4 border-[#30f2ab] rounded-full animate-float"></div>
-      <div className="absolute bottom-40 left-10 w-40 h-40 border-[5px] border-[#25c5ad] rounded-full animate-float-slow"></div>
-      <div className="absolute top-1/2 left-1/3 w-24 h-24 border-4 border-[#30f2ab] rounded-full animate-float-delayed"></div>
+      <div className="absolute top-20 right-10 w-32 h-32 border-4 border-[#30f2ab] rounded-full animate-float opacity-20 md:opacity-100"></div>
+      <div className="absolute bottom-40 left-10 w-40 h-40 border-[5px] border-[#25c5ad] rounded-full animate-float-slow opacity-20 md:opacity-100"></div>
+      <div className="absolute top-1/2 left-1/3 w-24 h-24 border-4 border-[#30f2ab] rounded-full animate-float-delayed opacity-20 md:opacity-100"></div>
       
       <div className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 relative z-10">
         
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
             Lleva tu red de contactos a otro nivel
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-lg md:text-xl text-gray-600">
             Conoce cómo funciona
           </p>
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className={`bg-white p-8 rounded-3xl border-2 border-gray-100 hover:border-[#25c5ad] hover:shadow-xl transition-all duration-300 ${
+              className={`bg-white p-6 md:p-8 rounded-3xl border-2 border-gray-100 hover:border-[#25c5ad] hover:shadow-xl transition-all duration-300 ${
                 index === 0 ? 'md:col-span-2' : ''
               }`}
             >
-              <div className="flex items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
                 {/* Icon */}
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-[#30f2ab]/20 to-[#25c5ad]/20 rounded-2xl flex items-center justify-center">
+                <div className="flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#30f2ab]/20 to-[#25c5ad]/20 rounded-2xl flex items-center justify-center">
                   <span className="text-[#25c5ad]">{feature.icon}</span>
                 </div>
 
                 {/* Content */}
-                <div className="flex-1 space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-xl font-bold text-gray-900">
+                <div className="flex-1 space-y-3 md:space-y-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-900">
                       {feature.title}
                     </h3>
                     {feature.highlight && (
-                      <span className="px-3 py-1 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white text-sm font-semibold rounded-full">
+                      <span className="px-3 py-1 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white text-sm font-semibold rounded-full inline-block w-fit">
                         {feature.highlight}
                       </span>
                     )}
                   </div>
                   
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     {feature.description}
                   </p>
 
@@ -106,7 +106,7 @@ export default function Features() {
                           className="flex items-center gap-2 px-3 py-2 bg-gray-50 rounded-full border border-gray-200 hover:border-[#25c5ad] hover:bg-[#25c5ad]/5 transition-all"
                         >
                           <span className="text-[#25c5ad]">{type.icon}</span>
-                          <span className="text-sm font-medium text-gray-700">{type.label}</span>
+                          <span className="text-base font-medium text-gray-700">{type.label}</span>
                         </div>
                       ))}
                     </div>

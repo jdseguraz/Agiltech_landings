@@ -24,13 +24,13 @@ export default function HeroBanner() {
           {/* Left Column - Text Content */}
           <div className="space-y-8">
             <div className="inline-block">
-              <span className="px-4 py-2 bg-gradient-to-r from-[#30f2ab]/20 to-[#25c5ad]/20 text-[#25c5ad] rounded-full text-sm font-semibold">
-                Tecnología Política
+              <span className="px-4 py-2 bg-gradient-to-r from-[#30f2ab]/20 to-[#25c5ad]/20 text-[#25c5ad] rounded-full text-base font-semibold">
+                Sistema de Inteligencia Electoral
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              GovWapp: Software de Gestión de Campañas Políticas y Día D
+              WhatIA: Sistema de Inteligencia Electoral Multinivel Georeferenciada 100% vía Whatsapp.
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -41,7 +41,7 @@ export default function HeroBanner() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
-                href="https://wa.me/573012499710?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20de%20GovWapp"
+                href="https://wa.me/573012499710?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20de%20WhatIA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white font-semibold rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2"

@@ -1,19 +1,19 @@
 import React from 'react'
-import { Play, Trophy, Handshake } from 'lucide-react'
+import { Play, Trophy, Handshake, MessageCircle } from 'lucide-react'
 import { UsersThree, PaperPlaneTilt } from '@phosphor-icons/react'
 
 export default function HowItWorks() {
   return (
     <section id="howitworks" className="relative bg-gray-50 min-h-screen flex items-center overflow-hidden">
       {/* Animated circles decoration */}
-      <div className="absolute top-10 left-10 w-32 h-32 border-4 border-[#30f2ab] rounded-full animate-float"></div>
-      <div className="absolute top-40 right-20 w-24 h-24 border-4 border-[#25c5ad] rounded-full animate-float-delayed"></div>
-      <div className="absolute bottom-20 left-1/4 w-40 h-40 border-[5px] border-[#30f2ab] rounded-full animate-float-slow"></div>
-      <div className="absolute bottom-40 right-1/3 w-20 h-20 border-4 border-[#25c5ad] rounded-full animate-float"></div>
-      <div className="absolute top-1/3 left-1/2 w-16 h-16 border-3 border-[#30f2ab] rounded-full animate-float-delayed"></div>
-      <div className="absolute top-2/3 right-10 w-28 h-28 border-4 border-[#25c5ad] rounded-full animate-float-slow"></div>
+      <div className="absolute top-10 left-10 w-32 h-32 border-4 border-[#30f2ab] rounded-full animate-float opacity-20 md:opacity-100"></div>
+      <div className="absolute top-40 right-20 w-24 h-24 border-4 border-[#25c5ad] rounded-full animate-float-delayed opacity-20 md:opacity-100"></div>
+      <div className="absolute bottom-20 left-1/4 w-40 h-40 border-[5px] border-[#30f2ab] rounded-full animate-float-slow opacity-20 md:opacity-100"></div>
+      <div className="absolute bottom-40 right-1/3 w-20 h-20 border-4 border-[#25c5ad] rounded-full animate-float opacity-20 md:opacity-100"></div>
+      <div className="absolute top-1/3 left-1/2 w-16 h-16 border-3 border-[#30f2ab] rounded-full animate-float-delayed opacity-20 md:opacity-100"></div>
+      <div className="absolute top-2/3 right-10 w-28 h-28 border-4 border-[#25c5ad] rounded-full animate-float-slow opacity-20 md:opacity-100"></div>
       
-      <div className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 py-12 relative z-10 w-full">
+      <div className="max-w-5xl mx-auto px-8 sm:px-12 lg:px-16 py-12 relative z-10 w-full">
         <div className="space-y-12">
           
           {/* Top Section - Text and Video */}
@@ -30,14 +30,14 @@ export default function HowItWorks() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed">
-                Descubre cómo GovWapp revoluciona las campañas políticas con WhatsApp, 
+                Descubre cómo WhatIA revoluciona las campañas políticas con WhatsApp, 
                 permitiendo comunicación directa, eficaz y en tiempo real con tu audiencia.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a
-                  href="https://wa.me/573012499710?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20de%20GovWapp"
+                  href="https://wa.me/573012499710?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20de%20WhatIA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] text-white font-semibold rounded-full hover:shadow-xl hover:scale-105 transition-all duration-200 text-center text-sm"
@@ -65,11 +65,13 @@ export default function HowItWorks() {
                   <div className="relative w-full h-full bg-black rounded-[2rem] overflow-hidden">
                     <video 
                       className="w-full h-full object-cover"
-                      controls
-                      preload="metadata"
+                      autoPlay
+                      loop
+                      muted
                       playsInline
+                      preload="auto"
                     >
-                      <source src="/src/assets/gov-tech/videos/WhatIdeaPol_VideoIntro.mp4" type="video/mp4" />
+                      <source src="/WhatIdeaPol_VideoIntro.mp4" type="video/mp4" />
                       Tu navegador no soporta el tag de video.
                     </video>
                   </div>

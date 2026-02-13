@@ -40,9 +40,9 @@ export default function Logo({ size = 'default', className = '' }) {
       
       {/* Text Logo */}
       <div className={`font-bold ${sizeConfig.text} flex items-baseline`}>
-        <span className="text-gray-800">Gov</span>
+        <span className="text-gray-800">What</span>
         <span className="bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent">
-          Wapp
+          IA
         </span>
       </div>
     </div>
@@ -103,9 +103,9 @@ export function LogoWithShield({ size = 'default', className = '' }) {
       
       {/* Text Logo */}
       <div className={`font-bold ${sizeConfig.text} flex items-baseline`}>
-        <span className="text-gray-800">Gov</span>
+        <span className="text-gray-800">What</span>
         <span className="bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent">
-          Wapp
+          IA
         </span>
       </div>
     </div>
