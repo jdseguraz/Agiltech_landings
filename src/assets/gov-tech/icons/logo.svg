@@ -1,0 +1,24 @@
+<!-- GovWapp Logo - Version Horizontal -->
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="govwapp-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30f2ab" />
+      <stop offset="100%" stop-color="#25c5ad" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon background -->
+  <rect x="4" y="8" width="32" height="32" rx="8" fill="url(#govwapp-gradient)"/>
+  
+  <!-- Message Circle Icon -->
+  <path d="M20 14C16.686 14 14 16.239 14 19C14 21.761 16.686 24 20 24C20.847 24 21.651 23.862 22.375 23.617L25 26V23.5C26.223 22.439 27 20.815 27 19C27 16.239 24.314 14 20 14Z" 
+        fill="white" 
+        fill-opacity="0.9"/>
+  
+  <!-- Text: "Gov" -->
+  <text x="48" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#1f2937">Gov</text>
+  
+  <!-- Text: "Wapp" with gradient -->
+  <text x="93" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="url(#govwapp-gradient)">Wapp</text>
+</svg>

@@ -124,7 +124,9 @@ export default function HeroSection() {
           >
             {/* CTA Principal */}
             <a
-              href="#contact"
+              href="https://wa.me/573012499710?text=Hola%2C%20quiero%20explorar%20c%C3%B3mo%20Agiltech%20puede%20transformar%20mi%20negocio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-5 py-3 sm:px-8 sm:py-4 bg-[#00c289] text-white rounded-lg text-sm sm:text-base font-semibold hover:bg-[#00a373] transition-all duration-300 shadow-lg shadow-[#00c289]/30 hover:shadow-[#00c289]/50 hover:scale-105"
             >
               <span className="whitespace-nowrap">Agenda una conversación</span>

@@ -109,7 +109,7 @@ export default function ContactSection() {
       {/* Canvas Converging Particles Effect */}
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 opacity-[0.15] lg:opacity-[0.25]"
+        className="absolute inset-0 opacity-[0.25]"
         style={{ pointerEvents: 'none' }}
       />
 
@@ -129,11 +129,16 @@ export default function ContactSection() {
 
           {/* CTA Button */}
           <div className="flex flex-col items-center gap-6">
-            <button className="group relative px-8 lg:px-10 py-4 lg:py-5 bg-[#00c289] hover:bg-[#00d999] text-black font-semibold text-lg lg:text-xl rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/30 flex items-center gap-3">
+            <a 
+              href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20una%20conversaci%C3%B3n%20estrat%C3%A9gica%20sobre%20soluciones%20BusinessTech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative px-8 lg:px-10 py-4 lg:py-5 bg-[#00c289] hover:bg-[#00d999] text-black font-semibold text-lg lg:text-xl rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/30 flex items-center gap-3"
+            >
               <Calendar className="w-6 h-6" />
               <span>Agenda una conversación estratégica</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
 
             <p className="text-zinc-500 text-sm lg:text-base">
               Hablemos de cómo la tecnología puede transformar tu negocio

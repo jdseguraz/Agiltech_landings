@@ -126,7 +126,7 @@ export default function ProblemSection() {
       {/* Animated Alerts Background */}
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 opacity-[0.08] lg:opacity-[0.12]"
+        className="absolute inset-0 opacity-[0.12]"
         style={{ pointerEvents: 'none' }}
       />
 

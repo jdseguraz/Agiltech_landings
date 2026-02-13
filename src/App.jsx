@@ -1,26 +1,15 @@
 import React from 'react'
-import Navbar from './components/home/Navbar'
-import HeroSection from './components/home/HeroSection'
-import ProblemSection from './components/home/ProblemSection'
-import ValuePropositionSection from './components/home/ValuePropositionSection'
-import SolutionsSection from './components/home/SolutionsSection'
-import ProcessSection from './components/home/ProcessSection'
-import WhyAgiltechSection from './components/home/WhyAgiltechSection'
-import ContactSection from './components/home/ContactSection'
-import Footer from './components/home/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import GovTech from './pages/GovTech'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black">
-      <Navbar />
-      <HeroSection />
-      <ProblemSection />
-      <ValuePropositionSection />
-      <SolutionsSection />
-      <ProcessSection />
-      <WhyAgiltechSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/gov-tech" element={<GovTech />} />
+      </Routes>
+    </Router>
   )
 }

@@ -166,7 +166,7 @@ export default function ValuePropositionSection() {
       {/* 4D Hypercube Animation */}
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 opacity-[0.08] lg:opacity-[0.12]"
+        className="absolute inset-0 opacity-[0.12]"
         style={{ pointerEvents: 'none' }}
       />
 

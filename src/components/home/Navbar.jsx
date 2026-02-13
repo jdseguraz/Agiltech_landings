@@ -165,8 +165,9 @@ export default function Navbar() {
                 ))}
                 
                 <motion.a
-                  href="#contact"
-                  onClick={(e) => handleLinkClick(e, '#contact')}
+                  href="https://wa.me/573012499710?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Agiltech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: navLinks.length * 0.1 }}

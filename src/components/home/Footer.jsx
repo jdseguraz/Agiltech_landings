@@ -113,7 +113,9 @@ export default function Footer() {
               
               <div className="pt-4">
                 <a
-                  href="#contact"
+                  href="https://wa.me/573012499710?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20llamada%20para%20conocer%20m%C3%A1s%20sobre%20Agiltech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900 hover:bg-[#00c289] text-zinc-300 hover:text-black text-sm font-medium rounded-lg transition-all duration-300"
                 >
                   <span>Agenda una llamada</span>
