@@ -99,9 +99,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Resolvemos con<br />
-            <span className="bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent">
-              soluciones de alto impacto.
-            </span>
+            soluciones de alto impacto.
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Conoce nuestras soluciones que se integran a las estrategias de negocio.

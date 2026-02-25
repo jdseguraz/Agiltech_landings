@@ -159,7 +159,7 @@ export default function WhyAgiltechSection() {
           
           <h2 className="text-3xl lg:text-5xl font-light text-white mb-3">
             Agiltech es tu{' '}
-            <span className="font-semibold text-[#00c289]">
+            <span className="font-semibold">
               socio tecnológico
             </span>
             , no un proveedor más

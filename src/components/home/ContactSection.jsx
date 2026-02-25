@@ -121,7 +121,7 @@ export default function ContactSection() {
           {/* Question */}
           <h2 className="text-3xl lg:text-6xl font-light text-white leading-tight">
             ¿Listo para{' '}
-            <span className="font-semibold text-[#00c289]">
+            <span className="font-semibold">
               escalar tu operación
             </span>
             {' '}con tecnología inteligente?

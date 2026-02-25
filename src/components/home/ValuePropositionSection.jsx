@@ -236,7 +236,7 @@ export default function ValuePropositionSection() {
                   <div className="relative">
                     {/* Number */}
                     <div className="mb-6">
-                      <span className={`text-7xl lg:text-8xl font-bold bg-gradient-to-br ${item.color} bg-clip-text text-transparent opacity-20`}>
+                      <span className="text-7xl lg:text-8xl font-bold text-white/20">
                         {(index + 1).toString().padStart(2, '0')}
                       </span>
                     </div>

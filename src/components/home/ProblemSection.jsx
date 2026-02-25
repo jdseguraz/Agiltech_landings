@@ -141,9 +141,7 @@ export default function ProblemSection() {
           
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             Las empresas no fallan por falta de talento.{' '}
-            <span className="text-red-400">
-              Fallan por procesos lentos, sistemas desconectados y decisiones sin datos.
-            </span>
+            Fallan por procesos lentos, sistemas desconectados y decisiones sin datos.
           </h2>
         </div>
 

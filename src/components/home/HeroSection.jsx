@@ -109,10 +109,10 @@ export default function HeroSection() {
           className="text-center"
         >
           {/* Headline Principal */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-300 mb-11 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-11 leading-tight">
             Tecnología que escala negocios.
             <br />
-            <span className="text-[#00c289]">IA que genera resultados.</span>
+            IA que genera resultados.
           </h1>
 
           {/* CTAs */}

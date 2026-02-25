@@ -78,7 +78,7 @@ export default function ProcessSection() {
                   <div className="relative mb-6">
                     <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${step.color} p-0.5`}>
                       <div className="w-full h-full bg-black rounded-[14px] flex items-center justify-center">
-                        <span className={`text-2xl font-bold bg-gradient-to-br ${step.color} bg-clip-text text-transparent`}>
+                        <span className="text-2xl font-bold text-white">
                           {step.number}
                         </span>
                       </div>

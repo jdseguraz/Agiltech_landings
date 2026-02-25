@@ -114,7 +114,7 @@ export default function HowItWorks() {
                 <div className="text-[#25c5ad]">
                   {stat.icon}
                 </div>
-                <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent">
+                <div className="text-3xl md:text-4xl font-bold text-[#25c5ad]">
                   {stat.number}
                 </div>
                 <div className="text-sm text-gray-600 font-medium">

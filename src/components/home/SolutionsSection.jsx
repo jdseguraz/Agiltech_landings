@@ -188,7 +188,7 @@ export default function SolutionsSection() {
           
           <h2 className="text-3xl lg:text-5xl font-light text-white mb-3">
             Tecnología que{' '}
-            <span className="font-semibold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
+            <span className="font-semibold">
               transforma negocios
             </span>
           </h2>

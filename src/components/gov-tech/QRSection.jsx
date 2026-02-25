@@ -43,7 +43,7 @@ export default function QRSection() {
                 <div className="relative w-full h-full bg-white rounded-[2rem] overflow-hidden flex flex-col items-center justify-center p-8">
                   {/* Logo */}
                   <div className="mb-6 text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-[#30f2ab] to-[#25c5ad] bg-clip-text text-transparent mb-2">
+                    <div className="text-2xl font-bold text-[#25c5ad] mb-2">
                       WhatIA
                     </div>
                     <p className="text-xs text-gray-600">Escanea para conectar</p>
