@@ -5,7 +5,7 @@ const plans = [
   {
     id: 'starter',
     name: 'Starter',
-    price: '$4,500',
+    price: '$5,500',
     currency: 'USD',
     description: 'Para validar el canal y comenzar a operar.',
     users: 'Hasta 500 usuarios/mes',
@@ -23,7 +23,7 @@ const plans = [
   {
     id: 'business',
     name: 'Business',
-    price: '$9,800',
+    price: '$10,500',
     currency: 'USD',
     description: 'Para operaciones en crecimiento con IA avanzada.',
     users: 'Usuarios ilimitados',
